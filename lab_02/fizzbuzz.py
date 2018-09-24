@@ -1,3 +1,4 @@
+# Krystlle Fajardo, Jadeja Baptiste, and Emili Fang
 def fizzbuzz(max_value):
     i = 1
     while i <= 100:
