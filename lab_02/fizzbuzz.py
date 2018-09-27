@@ -1,3 +1,4 @@
+
 # Krystlle Fajardo, Jadeja Baptiste, and Emili Fang
 def fizzbuzz(max_value):
     i = 1
@@ -11,5 +12,5 @@ def fizzbuzz(max_value):
         else:
             print(i)
         i = i + 1
+
 print(fizzbuzz(100))
-  
