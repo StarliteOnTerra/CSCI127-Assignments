@@ -9,7 +9,7 @@ def mysqrt(n):
         old_guess = guess
       return guess
 
-for i in range(1,101):
-    print(i, mysqrt(i))
+for i in range(1,8):
+    print(i, ":", + mysqrt(i))
 
  
