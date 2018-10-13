@@ -1,4 +1,5 @@
 #Jadeja Baptiste
+
 import random
 
 def build_random_list(size,max_value):
@@ -28,14 +29,21 @@ def count(l,value):
     l = [5, 3, 10, 21, 8, 3, 18, 56, 89, 21, 45, 3]
     if value in l:
         print(l.count(value))
-print(count(0,45))
+print(count(1,21))
 
 def reverse(l):
-    l = [1, 2, 4, 5, 8, ]
+    l = [1, 2, 4, 5, 8,]
     l = l[::-1]
     print(l)
-reverse(1)
+print(reverse(1))
 
-
+def isIncreasing(l):
+    Increasing = True
+    i = 0
+    while i < len(l)- 1:
+        if l[i] >= l[i+1]:
+            return True
+            
+    
 
         
