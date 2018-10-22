@@ -1,3 +1,5 @@
+# Done by Jadeja Baptiste and Stacey Li
+
 import random
 
 adj = ["beautiful", "aggressive", "calm", "delightful", "silly"]
