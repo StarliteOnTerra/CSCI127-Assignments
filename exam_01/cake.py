@@ -6,3 +6,5 @@ print(divide_cake(5, 10, 1))
 print(divide_cake(3, 6, 2))
 print(divide_cake(2, 5, 3))
 print(divide_cake(8, 10, 5))
+
+
