@@ -1,16 +1,23 @@
-l = []
+l =[]
 def encode(s):
-    letters = s.split
-    l.append(letters)
-    return l
+    lst = list(s)
+    return lst
+print(encode("abbbaaccddda"))
 
-print(encode("abbbaaacddcc"))
+def count(lst):
+    for letter in lst:
+        letter_num = lst.count(letter)
+        return letter_num
+print(count("abbbaaccddda"))
 
-def count(s):
-    for letter in l:
-        list = l.count(letter)
-        l.append(letter)
-    return l
+
+
+
+    
+
+    
+    
+    
     
     
     
