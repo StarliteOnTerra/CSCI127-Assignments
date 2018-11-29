@@ -1,6 +1,6 @@
 #Darren and Jadeja
 def build_word_counts(words):
-    d= {"call" : []} # a list of dictionaries containing a key: a list of items
+    d = {"call" : []} # a list of dictionaries containing a key: a list of items
     c = words.split()
     for i in range(len(c)): #loops for the amount of occurances in c
         if c[i] in d: # if c contains a key
