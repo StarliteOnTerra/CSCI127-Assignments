@@ -9,20 +9,25 @@ int discriminant(int a, int b, int c) {
     return d;
 }
 
-int quadsolve(int a, int b, int c) {
-
-    int r;
-    r = discriminant;
-    if (d >= 0) { -b + pow(d, .5) / (2*a); }
-    if (d < 0) return 0;
+int quadSolve(int a, int b, int c) {
+    int d;
+    int e;
+    d = pow(b,2) - 4*a*c;
+    if (d >= 0)
+    	e = -b + pow(d, .5)/(2*a);
+	return e;
+    std::cout << e;
+    if (d < 0) 
+	return 0;
 }
 
 int main() {
     int r;
     r = discriminant (2,4,3);
     std::cout << r;
-    int a = quadsolve;
-    std::cout << a;
-    return 0;
-   
+    int f;
+    f = quadSolve (4, 5, 3);
+    std::cout << f;
+
+ return 0;   
 }
